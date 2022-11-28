@@ -3,30 +3,50 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './src/index.js',
-  devtool: 'inline-source-map',
   devServer: {
-    static: './dist',
+    static: { directory: path.resolve(__dirname, './dist') },
+    historyApiFallback: true,
+    open: true,
+    compress: true,
+    hot: true,
+    port: 5500,
+  },
+  entry: {
+    main: path.resolve(__dirname, './src/index.js'),
+  },
+
+  output: {
+    path: path.resolve(__dirname, './dist'),
+    filename: '[name].bundle.js',
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html',
+      title: 'webpack Boilerplate',
+      template: path.resolve(__dirname, './src/index.html'), 
+      filename: 'index.html',
     }),
   ],
-  output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
-    clean: true,
-  },
   module: {
     rules: [
       {
-        test: /\.css$/i,
+        test: /\.(scss|css)$/,
         use: ['style-loader', 'css-loader'],
       },
+      
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
         type: 'asset/resource',
+      },
+    
+      {
+        test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
+        type: 'asset/inline',
+      },
+    
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: ['babel-loader'],
       },
     ],
   },
