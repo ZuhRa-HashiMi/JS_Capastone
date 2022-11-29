@@ -105,3 +105,21 @@ main {
       width: 13rem /* 208px */;
     }
   }
+
+  
+@media (min-width: 640px) {
+    .meals {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  
+    .meal {
+      height: 19rem /* 224px */;
+      width: 13rem /* 208px */;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .meals {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
