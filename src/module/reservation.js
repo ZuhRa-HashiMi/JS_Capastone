@@ -4,7 +4,7 @@ const modal = document.querySelector('.modal');
 const displayReservationModal = () => {
   window.addEventListener('DOMContentLoaded', () => {
     modal.style.display = 'none';
-  })
+  });
   reservationBtn.addEventListener('click', () => {
     modal.style.display = 'block';
   });
@@ -17,7 +17,5 @@ const closeModal = () => {
     modal.style.display = 'none';
   });
 };
-
-
 
 export { displayReservationModal, closeModal };
