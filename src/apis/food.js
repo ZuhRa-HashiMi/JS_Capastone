@@ -13,7 +13,6 @@ const indexOfFirstPost = indexOfLastPost - postsPerPage;
 
 // Get length of meals
 export const getMealsLength = () => {
-
   const totalMeals = meals.length;
 };
 
