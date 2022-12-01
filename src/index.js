@@ -1,3 +1,5 @@
+
+/* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 import './base.css';
 import './style.css';
@@ -41,6 +43,10 @@ const getDefaultMeals = () => {
     defaultTemplate(defaultFood(), mealsEl, getLike(), resultHeading);
   } else if (searchFood(term)) {
     template(searchFood(term), mealsEl, resultHeading);
+export default (meals, currentPage) => {
+  const pageNumbers = [];
+  for (let i = 1; i <= Math.ceil(meals.length / postsPerPage); i += 1) {
+    pageNumbers.push(i);
   }
 };
 

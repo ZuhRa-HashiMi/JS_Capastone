@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable import/no-cycle */
 import paginate from '../index.js';
 
@@ -13,6 +14,7 @@ const indexOfFirstPost = indexOfLastPost - postsPerPage;
 // Get length of meals
 export const getMealsLength = () => {
 
+  const totalMeals = meals.length;
 };
 
 export const getCurrentPosts = async () => {
