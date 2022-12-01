@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 /* eslint-disable import/no-cycle */
 import { getMealsLength } from './apis/food.js';
 

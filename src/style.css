@@ -71,7 +71,8 @@ main {
   font-size: 0.875rem;
   font-weight: 600;
   white-space: nowrap;
-  padding: 0.5rem 12px;
+  padding: 0 12px;
+  margin: 2px;
   background-color: rgb(238 242 255 / 1);
   color: rgb(79 70 229 / 1);
 }
