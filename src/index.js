@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import './base.css';
 import './style.css';
 import logo from './yummly.svg';
@@ -9,7 +10,6 @@ import {
   searchFood,
   handleNextBtn,
   handlePrevBtn,
-  handlePageBtn,
 } from './apis/food.js';
 import template from './template.js';
 import defaultTemplate from './defaultTemplate.js';
@@ -26,8 +26,7 @@ const modal = document.querySelector('.meal-details-content');
 const recipeCloseBtn = document.getElementById('recipe-close-btn');
 const nextBtn = document.querySelectorAll('.next-btn');
 const prevBtn = document.querySelectorAll('.prev-btn');
-let term = search.value;
-const postsPerPage = 10;
+const term = search.value;
 
 // Search meal and fetch data
 const searchMeal = async (e) => {
@@ -96,6 +95,6 @@ nextBtn.forEach((btn) => {
   });
 });
 
-export default (meals, currentPage) => {
+export default (meals) => {
 
 };

@@ -3,17 +3,16 @@ import paginate from '../index.js';
 
 let meals = [];
 let currentPosts = [];
-let currentPage = 1;
+const currentPage = 1;
 const postsPerPage = 10;
 
 // Get current posts
-let indexOfLastPost = currentPage * postsPerPage;
-let indexOfFirstPost = indexOfLastPost - postsPerPage;
-
+const indexOfLastPost = currentPage * postsPerPage;
+const indexOfFirstPost = indexOfLastPost - postsPerPage;
 
 // Get length of meals
 export const getMealsLength = () => {
- 
+
 };
 
 export const getCurrentPosts = async () => {
@@ -21,7 +20,7 @@ export const getCurrentPosts = async () => {
   return currentPosts;
 };
 
-export const searchFood = async (term) => {
+export const searchFood = async () => {
 
 };
 
@@ -40,9 +39,9 @@ export const handlePrevBtn = () => {
 };
 
 export const handleNextBtn = () => {
-  
+
 };
 
-export const handlePageBtn = (page) => {
- 
+export const handlePageBtn = () => {
+
 };
