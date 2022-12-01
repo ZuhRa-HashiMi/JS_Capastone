@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars */
 import './base.css';
 import './style.css';
 import logo from './yummly.svg';
@@ -14,7 +16,6 @@ import {
 
 const myLogo = document.querySelector('.logoYummy');
 myLogo.setAttribute('src', logo);
-
 
 export default (meals, currentPage) => {
   const pageNumbers = [];
