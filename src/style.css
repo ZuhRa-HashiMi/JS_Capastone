@@ -365,3 +365,11 @@ li.page-item.active {
   background-color: #374151;
   width: 30%;
 }
+
+.reservations p {
+  padding: 3px 3px;
+}
+
+.reservations p:nth-child(odd) {
+  background-color: rgb(241, 241, 241);
+}

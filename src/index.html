@@ -189,25 +189,25 @@
                 </div>
               </div>
 
-              <div class="reservations">
-                <h1 class="sub-heading text-center">Reservation (2)</h1>
-                <p>03-10-2022 - 11-05-2022 by Jimmy</p>
-                <p>03-10-2022 - 11-05-2022 by Jidula</p>
+              <div class="reservations-box">
+                <h1 class="sub-heading text-center">Reservation (<span class="counts"></span>)</h1>
+                
+                <div class="reservations"></div>
               </div>
 
               <form class="reservation-form">
                 <h1 class="sub-heading text-center">Add a reservation</h1>
                 <div>
                   <label for="name"></label>
-                  <input type="text" placeholder="Your name">
+                  <input type="text" class="name" placeholder="Your name" required>
                 </div>
                 <div>
                   <label for="start-date"></label>
-                  <input type="number" placeholder="Start date (dd-mm-yyyy)">
+                  <input type="text" class="start-date" placeholder="Start date" required onfocus="(this.type='date')">
                 </div>
                 <div>
                   <label for="end-date"></label>
-                  <input type="number" placeholder="End date (dd-mm-yyyy)">
+                  <input type="text" class="end-date" placeholder="End date"  required onfocus="(this.type='date')">
                 </div>
 
                 <button class="reserve-btn">Reserve</button>

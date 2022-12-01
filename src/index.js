@@ -2,7 +2,13 @@ import './base.css';
 import './style.css';
 // import logo from './yummly.svg';
 
-import { displayReservationModal, closeModal } from './module/reservation.js';
+import {
+  hideModalOnLoad, displayReservationModal, closeModal, addReservation,
+} from './module/reservation.js';
 
+hideModalOnLoad();
 displayReservationModal();
 closeModal();
+addReservation();
+
+// updateReservationsList();
