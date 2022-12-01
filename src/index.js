@@ -47,4 +47,3 @@ export default (meals, currentPage) => {
   });
   page.appendChild(ul);
 };
-// only for push 
