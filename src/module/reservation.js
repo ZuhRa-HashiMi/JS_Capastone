@@ -1,3 +1,5 @@
+import ReservationsCounter from './counter.js';
+
 const reservationBtn = document.querySelector('.reservation-btn');
 const modal = document.querySelector('.modal');
 
@@ -16,6 +18,12 @@ const updateReservationsList = async () => {
   const items = await data.json();
 
   reservations.innerHTML = '';
+  const counts = document.querySelector('.counts');
+
+  const countReservations = new ReservationsCounter(items);
+
+  counts.innerText = countReservations.getLength();
+
   items.forEach((item) => {
     const content = `
     <p>${item.date_start} - ${item.date_end} by ${item.username}</p>
