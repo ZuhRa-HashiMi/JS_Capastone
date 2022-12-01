@@ -1,2 +1,7 @@
-test.md
-node_modules
+/node_modules
+
+/dist
+
+/coverage
+
+.env
