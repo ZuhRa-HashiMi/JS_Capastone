@@ -1,15 +1,14 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable import/no-cycle */
 import paginate from '../index.js';
 
 let meals = [];
 let currentPosts = [];
-const currentPage = 1;
+let currentPage = 1;
 const postsPerPage = 10;
 
 // Get current posts
-const indexOfLastPost = currentPage * postsPerPage;
-const indexOfFirstPost = indexOfLastPost - postsPerPage;
+let indexOfLastPost = currentPage * postsPerPage;
+let indexOfFirstPost = indexOfLastPost - postsPerPage;
 const showingNumbers = document.querySelector('.showing-numbers');
 const mealsCounter = document.getElementById('meals-counter');
 
@@ -34,7 +33,6 @@ export const getCurrentPosts = async () => {
   currentPosts = meals.slice(indexOfFirstPost, indexOfLastPost);
   return currentPosts;
 };
-
 
 export const searchFood = async (term) => {
   const response = await fetch(
@@ -63,7 +61,6 @@ export const handlePrevBtn = () => {
   indexOfLastPost = currentPage * postsPerPage;
   indexOfFirstPost = indexOfLastPost - postsPerPage;
   getCurrentPosts();
-
 };
 
 export const handleNextBtn = () => {
@@ -74,7 +71,6 @@ export const handleNextBtn = () => {
   indexOfLastPost = currentPage * postsPerPage;
   indexOfFirstPost = indexOfLastPost - postsPerPage;
   getCurrentPosts();
-
 };
 
 export const handlePageBtn = (page) => {
@@ -82,5 +78,4 @@ export const handlePageBtn = (page) => {
   indexOfLastPost = currentPage * postsPerPage;
   indexOfFirstPost = indexOfLastPost - postsPerPage;
   getCurrentPosts();
-
 };
