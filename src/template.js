@@ -35,7 +35,7 @@ export default async (searchFood, mealsEl, resultHeading) => {
               </div>
               <div class="comment-like">
               <button class="meal-btn" data-mealID="${
-meal.idMeal
+  meal.idMeal
 }">Reservation<svg class="meal-svg" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style=""><path d="M0 0L3 3L0 6"></path></svg>
               </button>
             </div>
