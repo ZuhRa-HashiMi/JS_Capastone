@@ -1,5 +1,6 @@
 /* eslint-disable import/no-cycle */
 import { getMealsLength } from './apis/food.js';
+import commentsPopup from './modal/comments-popup.js';
 
 export default async (defaultFood, mealsEl, getLike, resultHeading) => {
   const meals = await defaultFood;
@@ -31,7 +32,7 @@ export default async (defaultFood, mealsEl, getLike, resultHeading) => {
       
         </div>
         <div class="comment-like">
-          <button class="meal-btn" data-mealID="${
+          <button class="meal-btn comments-btn" data-mealID="${
   meal.idMeal
 }">Comments<svg class="meal-svg" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style=""><path d="M0 0L3 3L0 6"></path></svg>
           </button>
@@ -53,6 +54,7 @@ export default async (defaultFood, mealsEl, getLike, resultHeading) => {
       )
       .join('');
     getMealsLength();
+    commentsPopup();
   }
 
   const hearts = document.querySelectorAll('.fa-heart');
