@@ -1,6 +1,5 @@
 /* eslint-disable import/no-cycle */
-import { getMealsLength } from './apis/food.js';
-import commentsPopup from './modal/comments-popup.js';
+import { getMealsLength } from '../apis/food.js';
 
 export default async (defaultFood, mealsEl, getLike, resultHeading) => {
   const meals = await defaultFood;
@@ -54,7 +53,6 @@ export default async (defaultFood, mealsEl, getLike, resultHeading) => {
       )
       .join('');
     getMealsLength();
-    commentsPopup();
   }
 
   const hearts = document.querySelectorAll('.fa-heart');
