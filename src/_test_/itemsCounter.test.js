@@ -8,5 +8,3 @@ describe('return the lengty of array', () => {
     expect(itemsCounter.getLength()).toBe(5);
   });
 });
-
-// only for push 
