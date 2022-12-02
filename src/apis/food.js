@@ -67,6 +67,13 @@ export const handlePrevBtn = () => {
 };
 
 export const handleNextBtn = () => {
+  if (currentPage < Math.ceil(meals.length / postsPerPage)) {
+    currentPage += 1;
+  }
+
+  indexOfLastPost = currentPage * postsPerPage;
+  indexOfFirstPost = indexOfLastPost - postsPerPage;
+  getCurrentPosts();
 
 };
 
