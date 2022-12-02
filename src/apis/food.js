@@ -35,8 +35,15 @@ export const getCurrentPosts = async () => {
   return currentPosts;
 };
 
-export const searchFood = async () => {
 
+export const searchFood = async (term) => {
+  const response = await fetch(
+    `https://www.themealdb.com/api/json/v1/1/search.php?s=${term}`,
+  );
+  const data = await response.json();
+  meals = data.meals;
+  paginate(meals, currentPage);
+  return getCurrentPosts();
 };
 
 export const defaultFood = async () => {
