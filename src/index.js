@@ -31,10 +31,17 @@ const term = search.value;
 
 // Search meal and fetch data
 const searchMeal = async (e) => {
+  e.preventDefault();
 
   // Get search term
-
+  term = search.value;
+  if (term.trim() === '') return;
+  resultHeading.innerHTML = `<h2>Search results for '${term}'</h2>`;
+  mealsEl.innerHTML = '<p class="text-center">Loading...</p>';
+  searchFood(term);
+  template(searchFood(term), mealsEl, resultHeading);
 };
+
 
 // Get Default Meals
 const getDefaultMeals = () => {
