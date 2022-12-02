@@ -10,6 +10,8 @@ const postsPerPage = 10;
 // Get current posts
 const indexOfLastPost = currentPage * postsPerPage;
 const indexOfFirstPost = indexOfLastPost - postsPerPage;
+const showingNumbers = document.querySelector('.showing-numbers');
+const mealsCounter = document.getElementById('meals-counter');
 
 // Get length of meals
 export const getMealsLength = () => {
