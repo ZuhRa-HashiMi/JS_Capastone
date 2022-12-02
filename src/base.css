@@ -1241,7 +1241,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   .md\:max-w-full {
-    max-width: 100%;
+    max-width: 60%;
   }
 
   .md\:flex-row {

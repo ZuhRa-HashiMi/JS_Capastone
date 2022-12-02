@@ -150,6 +150,15 @@ main {
   padding: 2rem 0;
 }
 
+.meal-details-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
 .meal-details::-webkit-scrollbar {
   width: 10px;
 }
@@ -165,6 +174,7 @@ main {
 
 .meal-details.showRecipe {
   display: block;
+  width: 60%;
 }
 
 .single-meal-p {
@@ -249,6 +259,7 @@ form input[type="submit"] {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 2rem;
+  margin-top: 30px;
 }
 
 .comment-header {
@@ -258,14 +269,18 @@ form input[type="submit"] {
 
 .comment-display {
   max-width: 800px;
-  margin: 50px auto;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: self-start;
 }
 
 .comment-display li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 20px;
+  gap: 20px;
 }
 
 /* active page button styles */
@@ -358,8 +373,25 @@ li.page-item.active {
   font-size: 20px;
 }
 
+.comments-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-li {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 1px 0;
+}
+
 .comments-form {
-  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: auto;
+  padding: 15px 0;
+  text-align: left;
 }
 
 .comments-form input,
