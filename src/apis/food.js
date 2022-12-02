@@ -57,6 +57,12 @@ export const defaultFood = async () => {
 };
 
 export const handlePrevBtn = () => {
+  if (currentPage > 1) {
+    currentPage -= 1;
+  }
+  indexOfLastPost = currentPage * postsPerPage;
+  indexOfFirstPost = indexOfLastPost - postsPerPage;
+  getCurrentPosts();
 
 };
 
