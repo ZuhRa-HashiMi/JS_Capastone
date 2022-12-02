@@ -1,4 +1,4 @@
-import ReservationsCounter from './counter.js';
+import ReservationsCounter from './reservationsCounter.js';
 
 const reservationBtn = document.querySelector('.reservation-btn');
 const modal = document.querySelector('.modal');
