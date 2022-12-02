@@ -89,3 +89,4 @@ export default async (defaultFood, mealsEl, getLike, resultHeading) => {
     });
   });
 };
+// only for push
