@@ -1,77 +1,112 @@
-![Microverse](https://img.shields.io/badge/Microverse-blueviolet) ![HTML](https://img.shields.io/badge/-HTML-orange) ![CSS](https://img.shields.io/badge/-CSS-blue) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
+<a name="readme-top"></a>
 
-# Project Name
+<div align="center">
 
-  yousRoz-Restaurant
+  <img src="https://github.com/Ofarouq310/Microverse_readme-template/blob/master/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-# 📜 Description the project.
-Javascript capstone project.
-The JavaScript capstone project is about building web application based on an external API.
-We selected an API that provides data about a topic that we like and then build the webapp around itI used API
+</div>
 
-## 🏛 Built With
+<!-- TABLE OF CONTENTS -->
 
-- HTML
-- CSS
-- JavaScript
-- ES6 Modules
-- API 
-- Webpak-config.
-- following linters standards.
-- following github flows standards.
-- following git flows standards.
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 yousRoz-Restaurant <a name="about-project"></a>
+
+- Javascript capstone project, this project is about building a restaurant web application based on an external API, We selected an API that provides data about a a list of meals then build the webapp around it using API.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Languages</summary>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+</details>
 
 
-### 🖥️LIVE DEMO
-You can use this project live by clicking [Live Demo](https://zuhra-hashimi.github.io/JS_Capastone/dist/)
+<details>
+  <summary>Technologies</summary>
+  <ul>
+    <li>APIs</li>
+    <li>Linters</li>
+    <li>Webpack</li>
+  </ul>
+</details>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- You can use this project live by clicking [Live Demo](https://zuhra-hashimi.github.io/JS_Capastone/dist/)
 
 ### Desktop Display
 ![screenshot](/src/images/disktop.png)
 ### Mobile Display
 ![screenshot](/src/images/mobile.png)
 
-## ⚙ Getting Started
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To get a local copy up and running... 
-Follow these seteps
+<!-- GETTING STARTED -->
 
-Install
-Run npm install after cloning the repo.
+## 💻 Getting Started <a name="getting-started"></a>
 
-Usage
-Run npm start for development. Run npm run build for production.
+To get a local copy up and running, follow these steps.
 
-Run tests
-Run npx eslint . for JS check
-Run npx eslint . --fix to fix JS errors if found
-Run npx stylelint "**/*.{css,scss}" for CSS check
-Run npx stylelint "**/*.{css,scss}" --fix to fix CSS errors if found.
+### Prerequisites
 
+- Use `git clone` to clone the repository using the HTTPS link into your local machine
 
-### 🔌Usage
+### Setup
 
->open your directory /JS_Capastone
+- `cd` into your local repository
 
-to run the file :
-_use vs-code or any IDE  to view line code .
+### Install
 
-_use your preferd browser to run the file .html to get project website.
+- `npm install` - Installs the necessary dependencies
 
-## 🤝 Contributing
+### Usage
 
-Contributions, issues, and feature requests are welcome!
-thanks:
+- `npm run build` - Builds development files into production code
 
-## 🙏🏻 Show your support
+### Run tests
 
-Give a ⭐️ if you like this project!
+- ` npx eslint .` - for JS check
+- ` npx stylelint "**/*.{css,scss}` - for CSS check
 
-## 📝 License
+### Deployment
 
-This project is [MIT](./MIT.md) licensed.
+- `npm start` - Starts the development server
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Author
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Zuhra Hashimi**
 
@@ -91,20 +126,48 @@ This project is [MIT](./MIT.md) licensed.
 - Twitter: @bryteLitty
 - LinkedIn: Bright Kportiklah
 
-## Report an issue
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
--Go here 👉 [@Link](https://github.com/ZuhRa-HashiMi/JS_Capastone/issues)
+<!-- FUTURE FEATURES -->
 
+## 🔭 Future Features <a name="future-features"></a>
 
-## Acknowledgments
+- [ ] [New styles will be implemented]
 
-- Thanks to the Microverse team for the great curriculum.
-- Thanks to the Code Reviewer(s) for the insightful feedback.
-- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
-- Hat tip to anyone whose code was used.
+- [ ] [The functionalities of the second & third page will be implemented]
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](https://github.com/ZuhRa-HashiMi/JS_Capastone/blob/dev/LICENSE) licensed.
+<!-- CONTRIBUTING -->
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+## 🤝 Contributing <a name="contributing"></a>
+
+- Contributions, issues, and feature requests are welcome!
+
+- Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+- If you like this project, please feel free to give a ⭐.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- All thankfulness to Microverse for equipping us with such skills to utilize in real-world projects and applications. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+- This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
