@@ -55,7 +55,7 @@
   
 - **_<summary>Presentation videos</summary>_**
   <ul>
-    <li>Presentation by Zuhra  :  </li>
+    <li>Presentation by Zuhra  : https://drive.google.com/file/d/1qMNesf3U50DoFap9QCNOjEF5N3IWqZIY/view </li>
     <li>Presentation by Bright :  </li>
     <li>Presentation by Omar   : https://drive.google.com/file/d/1KTEBnBc_FmxQYor7V7wyh9TKplLcYYVt/view?usp=share_link </li>
   </ul>
