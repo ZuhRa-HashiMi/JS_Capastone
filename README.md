@@ -86,6 +86,11 @@ This project is [MIT](./MIT.md) licensed.
 - Twitter: [@Ofaouq310](https://twitter.com/ofarouq310)
 - LinkedIn: [@Ofarouq310](https://www.linkedin.com/in/Ofarouq310/)
 
+👤 **Bright Kportiklah**
+- Github: @BryteLitty
+- Twitter: @bryteLitty
+- LinkedIn: Bright Kportiklah
+
 ## Report an issue
 
 -Go here 👉 [@Link](https://github.com/ZuhRa-HashiMi/JS_Capastone/issues)
