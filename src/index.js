@@ -2,6 +2,7 @@ import './base.css';
 import './style.css';
 import logo from './yummly.svg';
 import { getLike } from './apis/likes.js';
+
 /* eslint-disable import/no-cycle */
 import {
   getCurrentPosts,
@@ -11,9 +12,9 @@ import {
   handlePrevBtn,
   handlePageBtn,
 } from './apis/food.js';
-import template from './template.js';
-import defaultTemplate from './defaultTemplate.js';
-import modalPopUp from './modal/index.js';
+import template from './modules/template.js';
+import defaultTemplate from './modules/defaultTemplate.js';
+import modalPopUp from './modules/comments.js';
 // get img tag and set src attribute
 const myLogo = document.querySelector('.logoYummy');
 myLogo.setAttribute('src', logo);

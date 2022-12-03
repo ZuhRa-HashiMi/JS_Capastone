@@ -1,7 +1,8 @@
 /* eslint-disable import/no-cycle */
 import paginate from '../index.js';
 
-let meals = [];
+/* eslint-disable-next-line */
+export let meals = [];
 let currentPosts = [];
 let currentPage = 1;
 const postsPerPage = 10;
