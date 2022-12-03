@@ -23,7 +23,7 @@ We selected an API that provides data about a topic that we like and then build 
 
 
 ### 🖥️LIVE DEMO
-You can use this project live by clicking [Live Demo]()
+You can use this project live by clicking [Live Demo](https://zuhra-hashimi.github.io/JS_Capastone/dist/)
 
 ### Desktop Display
 ![screenshot](/src/images/disktop.png)
