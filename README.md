@@ -47,9 +47,6 @@ Run npx eslint . --fix to fix JS errors if found
 Run npx stylelint "**/*.{css,scss}" for CSS check
 Run npx stylelint "**/*.{css,scss}" --fix to fix CSS errors if found.
 
-<img align="right" alt="GIF" src="images/disktop.png">
-<img align="right" alt="GIF" src="images/s">
-<img align="right" alt="GIF" src="images/screenshot-3.png">
 
 ### 🔌Usage
 
