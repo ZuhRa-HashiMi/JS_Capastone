@@ -1,18 +1,79 @@
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet) ![HTML](https://img.shields.io/badge/-HTML-orange) ![CSS](https://img.shields.io/badge/-CSS-blue) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
 
-# Leaderboard
-The leaderboard web app displays the top scoring player on the fictional game of life. It also allows any player to submit their score. All data is preserved thanks to the external leaderboard API service.
+# Project Name
 
-## Preview
+  yousRoz-Restaurant
 
+# 📜 Description the project.
+Javascript capstone project.
+The JavaScript capstone project is about building web application based on an external API.
+We selected an API that provides data about a topic that we like and then build the webapp around itI used API
+
+## 🏛 Built With
+
+- HTML
+- CSS
+- JavaScript
+- ES6 Modules
+- API 
+- Webpak-config.
+- following linters standards.
+- following github flows standards.
+- following git flows standards.
+
+
+### 🖥️LIVE DEMO
+You can use this project live by clicking [Live Demo]()
 
 ### Desktop Display
 ![screenshot](./img/disktop.png)
 ### Mobile Display
 ![screenshot](./img/mobile.png)
 
-## Getting Started
-To get a local copy up and running follow these simple steps.
+## ⚙ Getting Started
+
+To get a local copy up and running... 
+Follow these seteps
+
+To get a local copy up and running follow these simple example steps.For SSH:git@github.com:Roseokpe/yousRoz-Restaurant.git For https://github.com/ZuhRa-HashiMi/JS_Capastone
+
+Install
+Run npm install after cloning the repo.
+
+Usage
+Run npm start for development. Run npm run build for production.
+
+Run tests
+Run npx eslint . for JS check
+Run npx eslint . --fix to fix JS errors if found
+Run npx stylelint "**/*.{css,scss}" for CSS check
+Run npx stylelint "**/*.{css,scss}" --fix to fix CSS errors if found.
+
+<img align="right" alt="GIF" src="images/screenshot-1.png">
+<img align="right" alt="GIF" src="images/screenshot-2.png">
+<img align="right" alt="GIF" src="images/screenshot-3.png">
+
+### 🔌Usage
+
+>open your directory /yousRoz-Restaurant
+to run the file :
+_use vs-code or any IDE  to view line code .
+
+_use your preferd browser to run the file .html to get project website.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+thanks:
+
+## 🙏🏻 Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
+
 
 ### Prerequisites
 - VIsual Studio Code.
