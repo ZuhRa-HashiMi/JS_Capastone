@@ -80,6 +80,12 @@ This project is [MIT](./MIT.md) licensed.
 - LinkedIn: [zuhra-hashimi](https://www.linkedin.com/in/zuhra-hashimi-601966214/)
 
 
+👤 **Omar Farouq**
+
+- GitHub: [@Ofarouq310](https://github.com/Ofarouq310)
+- Twitter: [@Ofaouq310](https://twitter.com/ofarouq310)
+- LinkedIn: [@Ofarouq310](https://www.linkedin.com/in/Ofarouq310/)
+
 ## Report an issue
 
 -Go here 👉 [@Link](https://github.com/ZuhRa-HashiMi/JS_Capastone/issues)
