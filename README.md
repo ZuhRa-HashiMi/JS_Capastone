@@ -149,9 +149,9 @@ To get a local copy up and running, follow these steps.
 - LinkedIn: [@Ofarouq310](https://www.linkedin.com/in/Ofarouq310/)
 
 👤 **Bright Kportiklah**
-- Github: @BryteLitty
-- Twitter: @bryteLitty
-- LinkedIn: Bright Kportiklah
+- Github: @BryteLitty(https://github.com/Bryte)
+- Twitter: @bryteLitty(https://twitter.come/BryteLitty)
+- LinkedIn: Bright Kportiklah(https://www.linkedin.com/in/bright-kportiklah-05512418a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
