@@ -35,6 +35,33 @@
 
 - Javascript capstone project, this project is about building a restaurant web application based on an external API, We selected an API that provides data about a a list of meals then build the webapp around it using API.
 
+- **_<summary>Team members</summary>_**
+  <ul>
+    <li>Zuhra Hashimi</li>
+    <li>Bright Kportiklah</li>
+    <li>Omar Farouq</li>
+  </ul>
+
+- **_A link to the Kanban board:_** https://github.com/ZuhRa-HashiMi/JS_Capastone/projects/1
+
+- **_A link to the project's GH repository:_** https://github.com/ZuhRa-HashiMi/JS_Capastone/tree/main
+
+- **_<summary>Sample of pull requests</summary>_**
+  <ul>
+    <li>Reviewed by Zuhra : https://github.com/ZuhRa-HashiMi/JS_Capastone/pull/33 </li>
+    <li>Reviewed by Bright: https://github.com/ZuhRa-HashiMi/JS_Capastone/pull/34 </li>
+    <li>Reviewed by Omar  : https://github.com/ZuhRa-HashiMi/JS_Capastone/pull/22 </li>
+  </ul>
+  
+- **_<summary>Presentation videos</summary>_**
+  <ul>
+    <li>Presentation by Zuhra  :  </li>
+    <li>Presentation by Bright :  </li>
+    <li>Presentation by Omar   :  </li>
+  </ul>
+
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
