@@ -89,7 +89,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- You can use this project live by clicking [Live Demo](https://zuhra-hashimi.github.io/JS_Capastone/dist/)
+- You can use this project live by clicking [Live Demo](https://js-capston-project.netlify.app/)
 
 ### Desktop Display
 ![screenshot](/src/images/disktop.png)
